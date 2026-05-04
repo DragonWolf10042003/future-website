@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Content On wood</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="background">
+	<div class="container">
+	<header>Laser Engraving</header>
+	<nav>
+		<a class="button" href="index.html">Home</a>
+		<a class="button" href="woodselection.html">Wood Selection</a>
+		<a class="button" href="cart.html">Cart</a>
+	</nav>
+	<h1 id="woodName"></h1>
+
+<img id="woodImage" class="wood-image" alt="Wood Type">
+
+<h2>Upload Your Engraving</h2>
+
+<form id="orderForm">
+    <label>Enter Text:</label><br>
+    <textarea id="engraveText" name="engraveText"></textarea><br><br>
+
+    <label>Upload Photo:</label><br>
+    <input type="file" id="engravePhoto" name="engravePhoto"><br><br>
+
+    <label>
+        <input type="radio" name="item" value="decoration">
+        Decoration
+    </label><br>
+
+    <label>
+        <input type="radio" name="item" value="coaster">
+        Coaster
+    </label><br>
+
+    <label>
+        <input type="radio" name="item" value="keyfob">
+        Key Fob
+    </label><br>
+
+    <label for="quantity">How many would you like to order?</label>
+    <select id="quantity" name="quantity">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+
+    <br><br>
+    <button type="button" id="addToCartBtn">Add to Cart</button>
+</form>
+</div>
+	<script src="script.js"></script>
+</body>
+</html>

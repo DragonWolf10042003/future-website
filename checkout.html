@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Checkout</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="background">
+<div class="container">
+
+    <header>Checkout</header>
+
+    <nav>
+      <a class="button" href="index.html">Home</a>
+		<a class="button" href="woodselection.html">Wood Selection</a>
+		<a class="button" href="cart.html">Cart</a>
+    </nav>
+
+    <h1>Shipping Information</h1>
+
+    <div id="orderSummary"></div>
+
+    <h2>Shipping Address</h2>
+<br>
+<form>
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="address1">Address Line 1</label>
+    <input type="text" id="address1" name="address1" required>
+
+    <label for="address2">Address Line 2 (optional)</label>
+    <input type="text" id="address2" name="address2">
+
+    <label for="city">City</label>
+    <input type="text" id="city" name="city" required>
+
+    <label for="state">State</label>
+    <input type="text" id="state" name="state" required>
+
+    <label for="zip">ZIP Code</label>
+    <input type="text" id="zip" name="zip" required>
+</form>
+    <br><br>
+
+    <button id="placeOrderBtn">Place Order</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
